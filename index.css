@@ -147,14 +147,14 @@ form#contact_form {
 
 input[type=text],
 textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 170%;
+    padding: 15px 15px;
+    margin: 25px 0;
     display: inline-block;
     border: 1px solid rgb(51, 51, 51);
     border-radius: 4px;
     box-sizing: border-box;
-    font-size: 15px;
+    font-size: 14px;
     outline-color: rgb(51, 51, 51);
 }
 
@@ -190,29 +190,33 @@ div#clocation {
     font-size: 22px;
     border: 1px solid rgb(51, 51, 51);
     border-radius: 5px;
-    padding: 30px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 
 div#cmail {
     font-size: 22px;
     border: 1px solid rgb(51, 51, 51);
     border-radius: 5px;
-    padding: 30px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 
 div#cphone {
     font-size: 22px;
     border: 1px solid rgb(51, 51, 51);
     border-radius: 5px;
-    padding: 30px;
-    margin: 5px;
+    padding: 20px;
+    margin: 10px;
 }
 
 .footer {
     margin-right: 25px;
     margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 
 .footer-right {
@@ -224,4 +228,8 @@ div#cphone {
     text-align: center;
     text-decoration: none;
     color: rgb(51, 51, 51);
+}
+
+a {
+    text-decoration: none;
 }
